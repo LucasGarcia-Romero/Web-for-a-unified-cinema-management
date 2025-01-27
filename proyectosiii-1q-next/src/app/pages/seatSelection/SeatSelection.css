@@ -1,0 +1,131 @@
+
+/* Contenedor principal */
+body{
+  background-color: #343b59;
+}
+.seat-selection {
+  margin-top: 1%;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  padding: 20px;
+  max-width: 900px;
+  width: 95%;
+  background-color: #2d3142; /* Fondo oscuro */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra envolvente */
+}
+
+/* Títulos */
+h2 {
+  color: #ffffff;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  color: #bfc0c0; /* Gris claro para subtítulos */
+  margin: 5px 0 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Contenedor de cine */
+.cinema {
+  margin-bottom: 30px;
+  background-color: #3e4357; /* Fondo para secciones de cine */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra de tarjetas */
+}
+
+/* Estilos de la grilla de butacas */
+.seats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center; /* Centrar la grilla horizontalmente */
+}
+
+.seat-row {
+  display: flex;
+  gap: 8px;
+  justify-content: center; /* Centrar cada fila de butacas */
+}
+
+/* Butacas */
+.seat {
+  flex-shrink: 0; /* Evitar que las butacas se encojan */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px; /* Bordes ligeramente redondeados */
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.seat img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.seat.available {
+  background-color: #40e754; /* Verde oscuro */
+}
+
+.seat.available:hover {
+  transform: scale(1.1); /* Efecto de agrandamiento al pasar el mouse */
+}
+
+.seat.occupied {
+  background-color: #9e2a2b; /* Rojo oscuro */
+  cursor: not-allowed;
+}
+
+.seat.selected {
+  background-color: #4788e2; /* Azul marino */
+}
+
+.seat.aisle {
+  background-color: transparent; /* Sin fondo */
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Botón de confirmar */
+.confirm-button-container {
+  margin-top: 20px;
+  text-align: center; /* Centrar el botón */
+}
+
+.confirm-button {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.confirm-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Efectos adicionales */
+.seat-row:hover .seat.available {
+  filter: brightness(1.1); /* Efecto sutil en filas al pasar el mouse */
+}
+
+#pasillo{
+  opacity: 0%;
+}

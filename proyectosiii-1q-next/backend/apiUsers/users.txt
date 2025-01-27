@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pedro",
+    "contraseña": "contraseña1"
+  },
+  {
+    "id": 2,
+    "nombre": "Pablo",
+    "contraseña": "contraseña2"
+  },
+  {
+    "id": 3,
+    "nombre": "Jose",
+    "contraseña": "contraseña3"
+  },
+  {
+    "id": 4,
+    "nombre": "Maria",
+    "contraseña": "contraseña4"
+  },
+  {
+    "id": 5,
+    "nombre": "Carmen",
+    "contraseña": "contraseña5"
+  },
+  {
+    "id": 6,
+    "nombre": "Felipe",
+    "contraseña": "contraseña6"
+  },
+  {
+    "id": 7,
+    "nombre": "Aungustias",
+    "contraseña": "contraseña7"
+  },
+  {
+    "id": 8,
+    "nombre": "Maria Isabel",
+    "contraseña": "contraseña8"
+  },
+  {
+    "id": 9,
+    "nombre": "Fausto",
+    "contraseña": "contraseña9"
+  },
+  {
+    "id": 10,
+    "nombre": "Mauro",
+    "contraseña": "contraseña10"
+  }
+]

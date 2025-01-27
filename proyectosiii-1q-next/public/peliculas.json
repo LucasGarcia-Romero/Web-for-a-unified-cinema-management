@@ -1,0 +1,55 @@
+
+[
+  {
+    "movie": {
+      "titulo": "El Padrino",
+      "año": 1972,
+      "genero": ["Drama", "Crimen"],
+      "director": "Francis Ford Coppola",
+      "imagen": "https://pics.filmaffinity.com/El_padrino-993414333-large.jpg",
+      "sinopsis": "Un poderoso jefe de la mafia italiana en Nueva York transfiere el control de su imperio criminal a su reluctante hijo."
+    }
+  },
+  {
+    "movie": {
+      "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+      "año": 2001,
+      "genero": ["Fantasía", "Aventura"],
+      "director": "Peter Jackson",
+      "imagen": "https://es.web.img3.acsta.net/medias/nmedia/18/89/67/45/20061512.jpg",
+      "sinopsis": "Un hobbit inocente se embarca en una épica misión para destruir el Anillo Único y salvar la Tierra Media."
+    }
+  },
+  {
+    "movie": {
+      "titulo": "Interstellar",
+      "año": 2014,
+      "genero": ["Ciencia ficción", "Drama"],
+      "director": "Christopher Nolan",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjIxNTg5NjY0MF5BMl5BanBnXkFtZTgwMzI2NzQ2MTE@._V1_SX300.jpg",
+      "sinopsis": "Un grupo de exploradores viaja a través de un agujero de gusano para encontrar un nuevo hogar para la humanidad."
+    }
+  },
+  {
+    "movie": {
+      "titulo": "El Laberinto del Fauno",
+      "año": 2006,
+      "genero": ["Fantasía", "Drama"],
+      "director": "Guillermo del Toro",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjA2NDg4OTY2N15BMl5BanBnXkFtZTcwMTk0MjUzMw@@._V1_SX300.jpg",
+      "sinopsis": "Una niña huérfana encuentra refugio en un mundo de fantasía mientras su país está sumido en la Guerra Civil Española."
+    }
+  },
+  {
+    "movie": {
+      "titulo": "Parasite",
+      "año": 2019,
+      "genero": ["Thriller", "Drama"],
+      "director": "Bong Joon-ho",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjE0NTEwMTQ2N15BMl5BanBnXkFtZTgwOTg2NzAyMzE@._V1_SX300.jpg",
+      "sinopsis": "Una familia pobre se infiltra en la vida de una rica familia, exponiendo las desigualdades sociales y las consecuencias de la codicia."
+    }
+  }
+]
+
+
